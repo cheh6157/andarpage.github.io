@@ -1,0 +1,157 @@
+.sc-mainslide{}
+
+.sc-mainslide .swiper{
+    height: calc(100vh - 100px);
+}
+.sc-mainslide .swiper-slide a{display: block;height: 100%;}
+
+.sc-mainslide .img-box{
+    height: 100%;
+}
+.sc-mainslide .img-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sc-mainslide .text-box{
+    position: absolute;
+    bottom: 0;left: 0;
+    padding: 100px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.sc-mainslide .text-box .title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.25;
+    letter-spacing: -1.3px;
+    color: #fff;
+}
+.sc-mainslide .text-box .desc{
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 17px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    color: #fff;
+}
+
+.sc-mainslide .swiper-pagination{bottom: 50px;}
+/* 소스랑 비교후 30점이상여한다라는걸 캐치! */
+.sc-mainslide .swiper .swiper-pagination-bullet{
+    margin: 0;
+    width: 20px;
+    height: 2px;
+    border-radius: 0;
+    background: #fff;
+}
+
+/* 여기까지 메인 슬라이드 */
+
+
+
+/* @best */
+.sc-best{}
+
+
+
+/* @배너 */
+.banner-area{margin-bottom: 20px;}
+.banner-area .banner-img{display: block;height: 100%;}
+.banner-area .banner-img img{width: 100%;}
+
+/* @lookbook */
+.sc-lookbook{}
+
+
+/* @new */
+.sc-new{}
+
+
+/* @brandstory */
+.sc-brandstory{background-color: #C86733;}
+.sc-brandstory .link-brandstory{
+    display: block;height: 100%;
+    padding: 56px 20px;
+}
+.sc-brandstory .title{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin: 0 auto 10px;
+    font-weight: 400;
+    display: inline-block;
+    border-bottom: 1.5px solid #fff;
+    padding-bottom: 5px;
+    line-height: 1.2;
+}
+.sc-brandstory .desc{
+    display: block;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    font-weight: 700;
+}
+.sc-brandstory .info{
+    display: block;
+    padding: 10px 0 5px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #fff;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+.sc-brandstory .link-more{
+    display: inline-block;
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+/* 여기까지 brandstory */
+
+
+/* @product */
+.sc-products{margin-bottom: 70px;}
+.sc-products .content{position: relative;}
+.sc-products .swiper{
+    padding: 0 20px;
+}
+
+/* .sc-products{overflow: hidden;}
+.sc-products .content{
+    padding: 0 20px;
+}
+.sc-products .swiper{
+    overflow:initial
+} */
+
+
+
+/* sc-info */
+.sc-info{margin-bottom: 10px;}
+
+.sc-info .link-info{
+    background: url(../images/bg/membershipbg.jpg)no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    padding: 65px 20px;
+}
+
+.sc-info .link-info.offline{
+    background: url(../images/bg/offlinebg.jpg)no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    padding: 80px 20px 74px;
+}
